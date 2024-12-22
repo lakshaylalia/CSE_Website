@@ -18,7 +18,7 @@ export default function About() {
             className="brightness-[65%]"
           />
 
-          <div className="header">
+          <div className="header ">
             <p className="relative z-10 text-white font-bold font-serif text-5xl">
               Computer Science and Engineering
             </p>
@@ -34,7 +34,7 @@ export default function About() {
               loading="eager"
               style={{ transform: "rotate(180deg)" }}
             />
-            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-center">
+            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-center ">
               Located in Hamirpur district of Himachal Pradesh, NIT Hamirpur
               enjoys a really scenic environment and pleasant weather.
               Established in the year 1986, as REC Hamirpur, NIT Hamirpur has

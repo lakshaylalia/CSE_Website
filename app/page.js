@@ -9,8 +9,8 @@ export default function Home() {
       <MoveToTop />
       <Logo />
       <Video />
-      <section className="slide-in">
-        <div className="container1 h-screen w-full flex">
+      <section className="animate-top">
+        <div className="container1 h-screen w-full flex ">
           <div className="leftSection text-white w-full md:w-[50%] bg-blue-700 flex flex-col gap-4 justify-end items-center relative">
             <Image
               src="/studentImages.jpeg"
@@ -23,44 +23,44 @@ export default function Home() {
               priority
             />
             <div className="relative z-10 p-6 text-center flex flex-col gap-6 ">
-              <h1 className="hover:underline decoration-white text-5xl font-bold ">
+              <h1 className="hover:underline decoration-white text-5xl font-bold  left-animate ">
                 Diverse Communities
               </h1>
-              <p className="mt-4  text-lg">
+              <p className="mt-4  text-lg  left-animate">
                 Our Department unites students from diverse backgrounds,
                 <br />
                 fostering innovation and collaboration in technology.
               </p>
             </div>
           </div>
-          <div className="rightSection text-white  w[-50%] flex flex-col">
-            <div className="sports bg-[#BF2A2A] h-[50%] flex flex-col gap-4 p-6">
-              <h1 className="hover:underline decoration-white text-5xl font-semibold">
+          <div className="rightSection text-white  w[-50%] flex flex-col ">
+            <div className="sports bg-[#BF2A2A] h-[50%] flex flex-col gap-4 p-6 justify-center">
+              <h1 className="hover:underline decoration-white text-5xl font-semibold right-animate">
                 Sports
               </h1>
-              <p className="text-lg">
+              <p className="text-lg right-animate">
                 We promotes holistic student growth with excellent sports
                 <br />
                 facilities that build teamwork and leadership.
               </p>
             </div>
             <div className="lifeAtNith h-[50%] flex flex-col gap-4 p-6 ">
-              <h1 className="text-5xl font-semibold text-blue-900 hover:underline decoration-white font-mono">
+              <h1 className="text-5xl font-semibold text-blue-900 hover:underline decoration-white font-mono right-animate">
                 Life at NITH
               </h1>
-              <p className="text-black text-lg">
+              <p className="text-black text-lg right-animate">
                 Enjoy a balanced campus life with academic excellence and
                 enriching recreational activities.
               </p>
             </div>
           </div>
         </div>
-        <div className="container2 h-screen w-full grid grid-rows-2 grid-cols-3 text-white">
+        <div className="container2 h-screen w-full grid grid-rows-2 grid-cols-3 text-white ">
           <div className="campusFacility bg-[#1B2F6E] flex flex-col justify-center items-center gap-6 px-8">
-            <h1 className="text-4xl font-bold hover:underline decoration-white">
+            <h1 className="text-4xl font-bold hover:underline decoration-white animate-top">
               Campus Facility
             </h1>
-            <p className="text-lg">
+            <p className="text-lg animate-top">
               Our campus features smart classrooms and state-of-the-art
               technology, creating an ideal environment for innovative learning
               and collaboration..
@@ -86,10 +86,10 @@ export default function Home() {
               className="absolute inset-0 w-full h-full object-cover z-0"
             />
             <div className="content relative z-10 p-6 flex flex-col gap-10">
-              <h1 className="text-4xl font-bold hover:underline decoration-white">
+              <h1 className="text-4xl font-bold hover:underline decoration-white animate-top">
                 Driving Innovation
               </h1>
-              <p className="text-lg">
+              <p className="text-lg animate-top">
                 Through events like Nimbus and active technical clubs, the CSE
                 Department at NIT Hamirpur drives innovation and excellence in
                 cutting-edge technologies.
@@ -109,10 +109,10 @@ export default function Home() {
             />
           </div>
           <div className="facultyMembers bg-[#BF2A2A] flex flex-col justify-center items-center gap-6 px-8 ">
-            <h1 className="text-4xl font-bold hover:underline decoration-white">
+            <h1 className="text-4xl font-bold hover:underline decoration-white animate-top">
               Expert Faculty Members
             </h1>
-            <p className="text-lg">
+            <p className="text-lg animate-top">
               Learn from expert faculty dedicated to mentoring and fostering
               excellence in computer science.
             </p>
@@ -123,7 +123,7 @@ export default function Home() {
         <p className="text-5xl text-[#1b2f6e] font-semibold ml-[8%] mb-10">
           Upcoming Events
         </p>
-        <div className="evnetContainer grid grid-cols-3 grid-rows-2 gap-y-8  h-[60%] pl-4">
+        <div className="evnetContainer grid grid-cols-3 grid-rows-2 gap-y-8  h-[60%] pl-4 left-animate">
           <div className="event1 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
             <p className="text-gray-600"> 30 Sep 2024</p>
             <p>
@@ -137,7 +137,7 @@ export default function Home() {
               </Link>
             </p>
           </div>
-          <div className="event2 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
+          <div className="event2 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4 ">
             <p className="text-gray-600">07 Oct 2024</p>
             <p>
               <Link
@@ -150,7 +150,7 @@ export default function Home() {
               </Link>
             </p>
           </div>
-          <div className="event3 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
+          <div className="event3 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4 e">
             <p className="text-gray-600">07 Dec 2024</p>
             <p>
               <Link
@@ -163,7 +163,7 @@ export default function Home() {
               </Link>
             </p>
           </div>
-          <div className="event4 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
+          <div className="event4 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4 ">
             <p className="text-gray-600">28 Oct 2024</p>
             <p>
               <Link
@@ -175,7 +175,7 @@ export default function Home() {
               </Link>
             </p>
           </div>
-          <div className="event5 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
+          <div className="event5 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4 ">
             <p className="text-gray-600">11 Nov 2024</p>
             <p>
               <Link
@@ -188,7 +188,7 @@ export default function Home() {
               </Link>
             </p>
           </div>
-          <div className="event6 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4">
+          <div className="event6 border-2 border-gray-400 h-40 w-[90%] self-center p-2 flex flex-col gap-4 ">
             <p className="text-gray-600">11 Nov 2024</p>
             <p>
               <Link
