@@ -13,7 +13,7 @@ function Video() {
           className="video absolute top-0 left-0 w-full h-full object-cover brightness-[70%]"
         >
           <source
-            src="https://res.cloudinary.com/dz1vsgxm5/video/upload/v1729336941/nith-cse-website/bidaegjvqeggbtqp9xea.mp4"
+            src="https://res.cloudinary.com/dmiq1mtz7/video/upload/f_auto:video,q_auto/v1/CSE_Website/jeikegcqs0fqhwkanga8"
             type="video/mp4"
           />
           Your browser does not support the video tag.

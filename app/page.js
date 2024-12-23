@@ -35,20 +35,20 @@ export default function Home() {
           </div>
           <div className="rightSection text-white  w[-50%] flex flex-col ">
             <div className="sports bg-[#BF2A2A] h-[50%] flex flex-col gap-4 p-6 justify-center">
-              <h1 className="hover:underline decoration-white text-5xl font-semibold right-animate">
+              <h1 className="hover:underline decoration-white text-5xl font-semibold left-animate">
                 Sports
               </h1>
-              <p className="text-lg right-animate">
+              <p className="text-lg left-animate">
                 We promotes holistic student growth with excellent sports
                 <br />
                 facilities that build teamwork and leadership.
               </p>
             </div>
             <div className="lifeAtNith h-[50%] flex flex-col gap-4 p-6 ">
-              <h1 className="text-5xl font-semibold text-blue-900 hover:underline decoration-white font-mono right-animate">
+              <h1 className="text-5xl font-semibold text-blue-900 hover:underline decoration-white font-mono left-animate">
                 Life at NITH
               </h1>
-              <p className="text-black text-lg right-animate">
+              <p className="text-black text-lg left-animate">
                 Enjoy a balanced campus life with academic excellence and
                 enriching recreational activities.
               </p>
@@ -85,6 +85,7 @@ export default function Home() {
               loop
               className="absolute inset-0 w-full h-full object-cover z-0"
             />
+
             <div className="content relative z-10 p-6 flex flex-col gap-10">
               <h1 className="text-4xl font-bold hover:underline decoration-white animate-top">
                 Driving Innovation
