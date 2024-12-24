@@ -33,8 +33,9 @@ export default function About() {
               height={50}
               loading="eager"
               style={{ transform: "rotate(180deg)" }}
+              className="self-start"
             />
-            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-center ">
+            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-left leading-10 ">
               Located in Hamirpur district of Himachal Pradesh, NIT Hamirpur
               enjoys a really scenic environment and pleasant weather.
               Established in the year 1986, as REC Hamirpur, NIT Hamirpur has
@@ -51,6 +52,7 @@ export default function About() {
               width={50}
               height={50}
               loading="eager"
+              className="self-end"
             />
           </div>
         </section>
@@ -81,8 +83,9 @@ export default function About() {
               height={50}
               loading="eager"
               style={{ transform: "rotate(180deg)" }}
+              className="self-start"
             />
-            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-center">
+            <p className="mx-4 text-xl font-medium text-gray-900 font-serif text-left leading-8">
             The aim of these programmes is to enable students to acquire
               specialized knowledge for various subjects in computer science &
               information technology, as well as to enrich the students
@@ -111,6 +114,7 @@ export default function About() {
               width={50}
               height={50}
               loading="eager"
+              className="self-end"
             />
           </div>
         </section>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
+
 function Navbar() {
   return (
     <nav className="w-full bg-[#0d1117] shadow-md sticky top-0 flex gap-10 p-1 z-20">

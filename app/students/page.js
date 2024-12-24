@@ -19,7 +19,7 @@ export default function Students() {
         </div>
         <div className="heading relative z-10 text-white w-full h-screen flex flex-col justify-center items-center gap-6">
           <p className="text-8xl font-semibold font-serif">Students</p>
-          <p className="font-lg font-semibold ">
+          <p className="text-lg font-semibold ">
             The curiosity and tenacity that drives our faculty’s research and
             creativity make their classrooms exciting places to be.
           </p>
