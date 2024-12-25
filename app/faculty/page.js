@@ -78,3 +78,10 @@ export default function Faculty() {
     </>
   );
 }
+
+
+export const metadata = {
+  title: "Faculty  - NITH CSE",
+  description:
+    "Welcome to the Computer Science and Engineering Department of NIT Hamirpur (NITH CSE). Discover CSE@NITH, find faculty details, student information, academic programs, research opportunities, and more.",
+};

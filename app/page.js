@@ -9,9 +9,9 @@ export default function Home() {
       <MoveToTop />
       <Logo />
       <Video />
-      <section className="animate-top">
+      <section>
         <div className="container1 h-screen w-full flex ">
-          <div className="leftSection text-white w-full md:w-[50%] bg-blue-700 flex flex-col gap-4 justify-end items-center relative">
+          <div className="leftSection text-white flex flex-col gap-8 relative w-[50%] justify-end items-start">
             <Image
               src="/studentImages.jpeg"
               alt="Students collaborating in the CS Department"
@@ -22,36 +22,45 @@ export default function Home() {
               className="brightness-[75%] blur-[1px] absolute inset-0 z-0"
               priority
             />
-            <div className="relative z-10 p-6 text-center flex flex-col gap-6 ">
-              <h1 className="hover:underline decoration-white text-5xl font-bold  left-animate ">
+            <div className="relative z-10 p-6  flex flex-col gap-6 text-left">
+              <h1 className="text-5xl font-bold  animate-top hover:underline decoration-white">
                 Diverse Communities
               </h1>
-              <p className="mt-4  text-lg  left-animate">
+              <p className="text-3xl  leading-10 lg:mt-4 lg:text-lg animate-top">
                 Our Department unites students from diverse backgrounds,
                 <br />
                 fostering innovation and collaboration in technology.
               </p>
             </div>
           </div>
-          <div className="rightSection text-white  w[-50%] flex flex-col ">
-            <div className="sports bg-[#BF2A2A] h-[50%] flex flex-col gap-4 p-6 justify-center">
-              <h1 className="hover:underline decoration-white text-5xl font-semibold left-animate">
+          <div className="rightSection text-white">
+            {/* <div className="sports bg-[#BF2A2A] h-[50%] flex flex-col gap-4 p-6 justify-center">
+              <h1 className="hover:underline decoration-white text-5xl font-semibold animate-top">
                 Sports
               </h1>
-              <p className="text-lg left-animate">
+              <p className="text-lg animate-top">
                 We promotes holistic student growth with excellent sports
                 <br />
                 facilities that build teamwork and leadership.
               </p>
-            </div>
-            <div className="lifeAtNith h-[50%] flex flex-col gap-4 p-6 ">
-              <h1 className="text-5xl font-semibold text-blue-900 hover:underline decoration-white font-mono left-animate">
-                Life at NITH
-              </h1>
-              <p className="text-black text-lg left-animate">
-                Enjoy a balanced campus life with academic excellence and
-                enriching recreational activities.
-              </p>
+            </div> */}
+            <div className="lifeAtNith h-full flex flex-col gap-4 p-6 relative justify-end items-center">
+              <video
+                src="https://res.cloudinary.com/dmiq1mtz7/video/upload/f_auto:video,q_auto/v1/CSE_Website/wq7fl6jp3qj2sdnbonf9"
+                autoPlay
+                muted
+                loop
+                className="absolute inset-0 w-full h-[100%] object-cover z-0 overflow-hidden"
+              />
+              <div className="relative z-10  flex flex-col gap-10 animate-top">
+                <h1 className="text-2xl lg:text-5xl font-bold hover:underline decoration-white font-mono">
+                  Life at NITH
+                </h1>
+                <p className=" text-xl ">
+                  Enjoy a balanced campus life with academic excellence and
+                  enriching recreational activities.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +106,6 @@ export default function Home() {
               </p>
             </div>
           </div>
-
           <div className="centralBlockImage">
             <Image
               src="/nithImage.png"
@@ -207,3 +215,5 @@ export default function Home() {
     </div>
   );
 }
+
+// https://res.cloudinary.com/dmiq1mtz7/video/upload/f_auto:video,q_auto/v1/CSE_Website/wq7fl6jp3qj2sdnbonf9

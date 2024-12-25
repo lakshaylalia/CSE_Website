@@ -1,3 +1,4 @@
+import Logo from "@/components/Logo";
 import MoveToTop from "@/components/MoveToTop";
 import Image from "next/image";
 import React from "react";
@@ -5,6 +6,7 @@ import React from "react";
 export default function Students() {
   return (
     <>
+      <Logo />
       <MoveToTop />
       <section className="relative w-full h-screen flex header">
         <div className="absolute inset-0 w-full h-full z-0">

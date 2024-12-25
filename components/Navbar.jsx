@@ -10,22 +10,22 @@ function Navbar() {
       </div>
       <div className="right w-full">
       <ul className="flex flex-wrap items-center justify-around py-4 text-gray-300 font-medium text-lg">
-        <li>
+        <li className='hover:text-yellow-500'>
           <Link href="/">Home</Link>
         </li>
-        <li className=''>
+        <li className='hover:text-yellow-500'>
           <Link href="/about">About</Link>
         </li>
-        <li>
+        <li className='hover:text-yellow-500'>
           <Link href="/faculty">Faculty</Link>
         </li>
-        <li>
+        <li className='hover:text-yellow-500'>
           <Link href="/students">Students</Link>
         </li>
-        <li>
+        <li className='hover:text-yellow-500'>
           <Link href="https://nith.ac.in/computer-science-engineering" target='_blank'>More Details</Link>
         </li>
-        <li>
+        <li className='hover:text-yellow-500'>
           <Link href="/signin">Sign In</Link>
         </li>
       </ul>
