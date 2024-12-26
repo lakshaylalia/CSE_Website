@@ -50,6 +50,7 @@ export default function Home() {
                 autoPlay
                 muted
                 loop
+                preload="metadata"
                 className="absolute inset-0 w-full h-[100%] object-cover z-0 overflow-hidden"
               />
               <div className="relative z-10  flex flex-col gap-10 animate-top">

@@ -15,6 +15,7 @@ export default function About() {
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
             priority
+            loading="eager"
             className="brightness-[65%]"
           />
 

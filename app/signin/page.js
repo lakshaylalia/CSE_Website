@@ -21,6 +21,7 @@ export default function SignIn() {
           fill
           style={{ objectFit: "cover", objectPosition: "center" }}
           priority
+          loading="eager"
         />
       </div>
       <div className="formContainer relative z-10 w-[25%] h-[55%] mx-auto  bg-white bg-opacity-90 p-8 border border-gray-300 shadow-md">
