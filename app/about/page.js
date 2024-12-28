@@ -8,7 +8,7 @@ export default function About() {
     <MoveToTop />
       <Logo />
       <section className="about">
-        <section className="heading h-[90vh] w-full relative z-0 flex justify-center items-center">
+        <div className="heading h-[35vh] lg:h-[90vh] w-full relative z-0 flex justify-center items-center">
           <Image
             src="/csDepartment.webp"
             alt="CS Department"
@@ -24,8 +24,8 @@ export default function About() {
               Computer Science and Engineering
             </p>
           </div>
-        </section>
-        <section className="history h-[40vh] flex justify-center items-center w-[80%] ml-[10%]">
+        </div>
+        <div className="history h-[25vh] lg:h-[40vh] flex justify-center items-center w-[80%] ml-[10%]">
           <div className="flex items-center">
             <Image
               src="https://www.iima.ac.in/themes/iima/images/qoute-2.svg"
@@ -56,8 +56,8 @@ export default function About() {
               className="self-end"
             />
           </div>
-        </section>
-        <section className="academicPrograms h-[40vh] w-[80%] ml-[10%] flex flex-col gap-6">
+        </div>
+        <div className="academicPrograms h-[20vh] lg:h-[40vh] w-[80%] ml-[10%] flex flex-col gap-6">
           <h1 className="text-blue-900 text-5xl font-semibold font-serif">
             Academic Programmes
           </h1>
@@ -74,8 +74,8 @@ export default function About() {
             </li>
             <li>Ph.D. in Computer Science & Engineering</li>
           </ul>
-        </section>
-        <section className="history h-[60vh] flex justify-center items-center w-[80%] ml-[10%] mt-10">
+        </div>
+        <div className="history h-[25vh] my-[10%] lg:h-[60vh] flex justify-center items-center w-[80%] ml-[10%] lg:mt-10">
           <div className="flex items-center">
             <Image
               src="https://www.iima.ac.in/themes/iima/images/qoute-2.svg"
@@ -118,7 +118,7 @@ export default function About() {
               className="self-end"
             />
           </div>
-        </section>
+        </div>
       </section>
     </>
   );

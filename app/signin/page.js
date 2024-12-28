@@ -12,7 +12,7 @@ export default function SignIn() {
   } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="relative w-full h-screen flex justify-center items-center">
+    <div className="relative w-full h-[35vh] lg:h-screen flex justify-center items-center">
       <Logo />
       <div className="absolute inset-0 z-0">
         <Image
@@ -24,7 +24,7 @@ export default function SignIn() {
           loading="eager"
         />
       </div>
-      <div className="formContainer relative z-10 w-[25%] h-[55%] mx-auto  bg-white bg-opacity-90 p-8 border border-gray-300 shadow-md">
+      <div className="formContainer relative z-10 w-[35%] lg:w-[25%] h-[55%] mx-auto  bg-white bg-opacity-90 p-8 border border-gray-300 shadow-md">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="h-full flex flex-col justify-evenly"

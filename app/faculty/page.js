@@ -7,7 +7,7 @@ export default function Faculty() {
     <>
       <Logo />
       <MoveToTop />
-      <section className="relative w-full h-full flex header">
+      <section className="relative w-full h-[35vh] lg:h-full flex header">
         <div className="absolute inset-0 w-full h-full z-0">
           <Image
             src="/facultyBg.webp"
@@ -17,15 +17,15 @@ export default function Faculty() {
             priority
           />
         </div>
-        <div className="heading relative z-10 text-white w-full h-screen flex flex-col justify-center items-center gap-6">
-          <p className="text-8xl font-semibold font-serif">Faculty</p>
-          <p className="text-xl font-semibold ">
+        <div className="heading relative z-10 text-white w-full lg:h-screen flex flex-col justify-center items-center gap-6">
+          <p className="text-6xl lg:text-8xl font-semibold font-serif">Faculty</p>
+          <p className="text-lg lg:text-xl font-semibold ">
             The curiosity and tenacity that drives our faculty’s research and
             creativity make their classrooms exciting places to be.
           </p>
         </div>
       </section>
-      <div className="deanMessage h-screen w-full p-10 flex flex-col gap-6 justify-around">
+      <div className="deanMessage h-[45vh] lg:h-screen w-full p-10 flex flex-col gap-6 justify-around">
         <h1 className="text-[#2945a2] text-6xl font-bold font-serif">
           Message from Dean
         </h1>

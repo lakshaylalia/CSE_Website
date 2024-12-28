@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 export default function Footer() {
   return (
-    <footer className='relative bottom-0 w-full bg-[#0d1117] text-white h-screen p-4 flex flex-col gap-10 justify-evenly items-center '>
+    <footer className='relative bottom-0 h-[50vh] lg:h-screen w-full bg-[#0d1117] text-white  p-4 flex flex-col gap-10 justify-evenly items-center '>
         <div className='footerLogo flex flex-col items-center gap-4'>
            <div className='logo'><img src='/nithLogo.png' alt='logo' height={150} width={150} /></div>
            <h1 className='text-xl font-semibold'>Department of Computer Scienec and Engineering</h1>

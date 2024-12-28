@@ -8,7 +8,7 @@ export default function Students() {
     <>
       <Logo />
       <MoveToTop />
-      <section className="relative w-full h-screen flex header">
+      <section className="relative w-full h-[35vh] lg:h-screen flex header">
         <div className="absolute inset-0 w-full h-full z-0">
           <Image
             src="/students.webp"
@@ -19,7 +19,7 @@ export default function Students() {
             className="brightness-[65%]"
           />
         </div>
-        <div className="heading relative z-10 text-white w-full h-screen flex flex-col justify-center items-center gap-6">
+        <div className="heading relative z-10 text-white w-full lg:h-screen flex flex-col justify-center items-center gap-6">
           <p className="text-8xl font-semibold font-serif">Students</p>
           <p className="text-lg font-semibold ">
             The curiosity and tenacity that drives our faculty’s research and
@@ -27,7 +27,7 @@ export default function Students() {
           </p>
         </div>
       </section>
-      <section className="activities grid grid-cols-3 grid-rows-2 w-full h-screen">
+      <section className="activities grid grid-rows-3 grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 w-full h-[60vh] lg:h-screen">
         <div className="alumniNetwork bg-[#1B2F6E] text-white flex justify-center items-center flex-col gap-6 p-5">
           <h1 className="text-4xl font-bold font-serif hover:underline decoration-white animate-top">
             Alumni Network

@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 function Video() {
   return (
     <>
-      <div className="bgVideo relative h-[40vh] md:h-[60vh] lg:h-[95vh] flex justify-center items-center overflow-hidden">
+      <div className="bgVideo relative h-[35vh] lg:h-[95vh] flex justify-center items-center overflow-hidden">
         <video
           autoPlay
           loop
@@ -19,9 +19,9 @@ function Video() {
           Your browser does not support the video tag.
         </video>
         <div className="centre z-10 relative text-white flex flex-col justify-center items-center gap-6 font-serif">
-          <p className="font-bold text-5xl md:text-3xl lg:text-6xl">National Institute of Technology</p>
-          <p className="font-bold text-5xl md:text-3xl lg:text-6xl"> Hamirpur</p>
-          <p className="text-md md:text-xs lg:text-xl">
+          <p className="font-bold text-5xl  lg:text-6xl">National Institute of Technology</p>
+          <p className="font-bold text-5xl  lg:text-6xl"> Hamirpur</p>
+          <p className="text-md font-semibold lg:text-xl">
             <Typewriter
               words={[
                 "Welcome, to NITH. An Institute of National Importance.",
