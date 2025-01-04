@@ -1,0 +1,63 @@
+
+.animate-top {
+    animation: appear-top 1.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes appear-top {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  
+  .left-animate {
+    animation: left-move 1.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes left-move {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%) scale(0.95);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
+  
+  .right-animate {
+    animation: right-move 1.5s cubic-bezier(0.25, 0.8, 0.25, 1) forwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes right-move {
+    from {
+      opacity: 0;
+      transform: translateX(100%) scale(0.95);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0) scale(1);
+      box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
